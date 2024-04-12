@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Móviles</title>
+</head>
+<body>
+    <div class="nav">
+        <nav id="menu">
+            <ul>
+             <li><a href="#">Documentos Excel</a>
+                <ul>
+                    <li><a href="https://onedrive.live.com/?authkey=%21AEgpcHvDpEIO5LM&id=B2244CD683BD8234%21490088&cid=B2244CD683BD8234">One Drive Data</a></li>
+                    <li><a href="https://drive.google.com/uc?export=download&id=1VFZ2T5SeOuMRysY3jGT40rktUZnHqA62">Check List</a></li>
+                    <li><a href="https://onedrive.live.com/view.aspx?resid=B2244CD683BD8234!491303&cid=b2244cd683bd8234&authkey=!AEgpcHvDpEIO5LM&CT=1709216523996&OR=ItemsView">Data lineas Activas</a></li>
+                    <li><a href="https://sca.sharepoint.com/:x:/r/sites/GRP-GOPS-ServicioCAU-OperacinIndra/Shared%20Documents/Operaci%C3%B3n%20Indra/Guias%20Servientrega/Seguimiento%20Servientrega%202023.xlsx?d=wbb11e0496a1643cfa8bf0554ea1753fd&csf=1&web=1&e=EMxK2m">Seguimiento Servientrega</a></li>
+                    <li><a href="https://onedrive.live.com/edit?id=B2244CD683BD8234!496861&resid=B2244CD683BD8234!496861&ithint=file%2cxlsx&authkey=!ADsTYWLMg84Jm6M&wdo=2&cid=b2244cd683bd8234">Base renovación móviles</a></li>
+                </ul></li>
+             <li><a href="#">Enlaces</a>
+                <ul>
+                    <li><a href="https://miclaroempresas.com.co/login">Mi Claro Empresas</a></li>
+                    <li><a href="https://us01.manage.samsungknox.com/emm/">Samsung Knox</a></li>
+                    <li><a href="https://canales.servientrega.com/SISCLINET/login.aspx">Servientrega</a></li>
+                    <li><a href="https://sdms.familia.com.co/">CAU</a></li>
+                    <li><a href="https://essity.saasiteu.com/Default.aspx#1710861865663">Servess</a></li>
+                </ul>
+             </li>
+             <li><a href="#">Documentos y manuales de usuario</a>
+                <ul>
+                    <li><a href="https://drive.google.com/uc?export=download&id=16Poj9wL8iGi1SWHD4AuvbeOkLmvEYf9t">Manual Hurtos</a></li>
+                    <li><a href="https://drive.google.com/uc?export=download&id=14kGxIKi6TIZyrP7e2EfJGTwiT6ah2O4N">Plantilla Compra</a></li>
+                    <li><a href="https://drive.google.com/uc?export=download&id=18IAi9veevEr6OwwSuZB4UgB7Tqhrrj1A">Alistamiento Equipos con Knox</a></li>
+                    <li><a href="https://drive.google.com/uc?export=download&id=1WixMzrtwrzRqGxptZjvHD3bxbId2CJ3_">Plantilla entrega de equipos</a></li>
+                    <li><a href="https://drive.google.com/uc?export=download&id=1pIrPg1FWk6_ePERewpHJ-Jhw93X4Mh-c">Plantilla crear equiopos</a></li>
+                </ul>
+            </li>
+             <li><a href="#">Scripts</a>
+                <ul>
+                    <li><button href="" id="script1">Alistamiento ceclular</button></li>
+                    <li><button id="script2">Envío celular</button></li>
+                    <li><button id="script3">Solicitar credencales</button></li>
+                    <li><button id="script4">Carta de Asignación</button></li>
+                </ul>
+            </li>
+            </ul>
+            </nav>
+    </div>
+    <dialog id="formCarta">
+        <form action="" method="dialog">
+          <div>
+              <label for="">Nombre</label>
+              <input type="text" id="name">
+          </div>
+          <div>
+              <label for="">Solicitud SR</label>
+              <input type="text" id="sr">
+          </div>
+          <div>
+              <label for="">Nro Celular</label>
+              <input type="text" id="phone">
+          </div>
+          <div>
+            <label for="">Cargo</label>
+            <input type="text" id="cargo">
+        </div>
+          <div>
+            <label for="">Centro de Costos</label>
+            <input type="text" id="ceco">
+        </div>
+        <div>
+            <label for="">ImeI</label>
+            <input type="text" id="imei">
+        </div>
+        <div>
+            <label for="">Precio</label>
+            <input type="text" id="precio">
+        </div>
+        <div>
+            <label for="">Marca</label>
+            <input type="text" id="marca">
+        </div>
+        <div>
+            <label for="">Modelo del equipo</label>
+            <input type="text" id="modelo">
+        </div>
+          <div id="btnAgregar">
+            <button>Enviar</button>
+        </div>
+        </form>  
+      </dialog>
+    <div id="parrafo">
+    <p id="parrafo"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
